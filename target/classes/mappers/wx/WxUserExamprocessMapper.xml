@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxUserExamprocessMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxUserExamprocess">
+        <id column="UE_ID" property="ueId" />
+        <result column="UE_OPENID" property="ueOpenid" />
+        <result column="UE_USERNAME" property="ueUsername" />
+        <result column="UE_VIDEO_PERCENT" property="ueVideoPercent" />
+        <result column="UE_EXAM_GRADE" property="ueExamGrade" />
+        <result column="UE_USER_STATUS" property="ueUserStatus" />
+        <result column="UE_USER_PLAN" property="ueUserPlan" />
+        <result column="UE_CREATETIME" property="ueCreatetime" />
+        <result column="UE_PIID" property="uePiid" />
+        <result column="UE_EXAM_FINISH" property="ueExamFinish" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        UE_ID, UE_OPENID, UE_USERNAME, UE_VIDEO_PERCENT, UE_EXAM_GRADE, UE_USER_STATUS, UE_USER_PLAN, UE_CREATETIME, UE_PIID, UE_EXAM_FINISH
+    </sql>
+
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxFocusMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxFocus">
+        <id column="FO_ID" property="foId" />
+        <result column="FO_UID" property="foUid" />
+        <result column="FO_TOPIC_ID" property="foTopicId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        FO_ID, FO_UID, FO_TOPIC_ID
+    </sql>
+
+</mapper>

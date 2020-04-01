@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxQrCodeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxQrCode">
+        <id column="QR_ID" property="qrId" />
+        <result column="QR_URL" property="qrUrl" />
+        <result column="QR_TIME" property="qrTime" />
+        <result column="QR_DESC" property="qrDesc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        QR_ID, QR_URL, QR_TIME, QR_DESC
+    </sql>
+
+</mapper>

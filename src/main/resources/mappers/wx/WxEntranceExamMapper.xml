@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxEntranceExamMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxEntranceExam">
+        <id column="EE_ID" property="eeId" />
+        <result column="EE_OPENID" property="eeOpenid" />
+        <result column="EE_SUBMISSIONTIME" property="eeSubmissiontime" />
+        <result column="EE_NAME" property="eeName" />
+        <result column="EE_UNIVERSITY" property="eeUniversity" />
+        <result column="EE_EMAIL" property="eeEmail" />
+        <result column="EE_GRADE" property="eeGrade" />
+        <result column="EE_IDEAL_INDEUSTRY" property="eeIdealIndeustry" />
+        <result column="EE_IDEAL_POSITION" property="eeIdealPosition" />
+        <result column="EE_THEORY" property="eeTheory" />
+        <result column="EE_IDEAL_COMPANY_TYPE" property="eeIdealCompanyType" />
+        <result column="EE_IDEAL_COMPANY" property="eeIdealCompany" />
+        <result column="EE_REASON_OR_THOUGHT" property="eeReasonOrThought" />
+        <result column="EE_PREPARATION" property="eePreparation" />
+        <result column="EE_OPPORTUNITY" property="eeOpportunity" />
+        <result column="EE_EXPERIENCE" property="eeExperience" />
+        <result column="EE_LIFE_PLAN" property="eeLifePlan" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        EE_ID, EE_OPENID, EE_SUBMISSIONTIME, EE_NAME, EE_UNIVERSITY, EE_EMAIL, EE_GRADE, EE_IDEAL_INDEUSTRY, EE_IDEAL_POSITION, EE_THEORY, EE_IDEAL_COMPANY_TYPE, EE_IDEAL_COMPANY, EE_REASON_OR_THOUGHT, EE_PREPARATION, EE_OPPORTUNITY, EE_EXPERIENCE, EE_LIFE_PLAN
+    </sql>
+
+</mapper>

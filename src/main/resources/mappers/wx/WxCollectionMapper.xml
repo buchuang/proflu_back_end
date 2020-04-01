@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxCollectionMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxCollection">
+        <id column="CO_ID" property="coId" />
+        <result column="CO_OPENID" property="coOpenid" />
+        <result column="CO_IID" property="coIid" />
+        <result column="CO_TITLE" property="coTitle" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        CO_ID, CO_OPENID, CO_IID, CO_TITLE
+    </sql>
+
+</mapper>

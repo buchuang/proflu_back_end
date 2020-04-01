@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxEntrepreneurUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxEntrepreneurUser">
+        <id column="EU_ID" property="euId" />
+        <result column="EU_OPENID" property="euOpenid" />
+        <result column="EU_ENTREPRENEUR_ID" property="euEntrepreneurId" />
+        <result column="EU_ENTREPRENEUR_NAME" property="euEntrepreneurName" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        EU_ID, EU_OPENID, EU_ENTREPRENEUR_ID, EU_ENTREPRENEUR_NAME
+    </sql>
+
+</mapper>

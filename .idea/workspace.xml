@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ad94227-1541-43a4-98cf-df3e3d39c01f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/ProfluwebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/ProfluwebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/CheckedIndustry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/CheckedIndustry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/NewsParamInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/NewsParamInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/VO/wx/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/config/InterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/config/InterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/config/MySpringMvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/config/MySpringMvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/CodeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/CodeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ErrorInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ErrorInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ThisAssert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ThisAssert.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ThisExcepton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/exception/ThisExcepton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/myEnum/ErrorCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/myEnum/ErrorCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/myEnum/InfoCodeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/myEnum/InfoCodeEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$CloudService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$CloudService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$MenuType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$MenuType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$ScheduleStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Constant$ScheduleStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/DateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/HttpUtil$ResponseContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/HttpUtil$ResponseContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/HttpUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/HttpUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Json4Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/Json4Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/JsonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/JsonUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/MabatisPlusGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/PageUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/PageUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/SessionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/SessionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/UDateToLocalTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/common/utils/UDateToLocalTime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxCollectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxCollectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxCompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxCompanyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxEntrepreneurController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxEntrepreneurController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxFeebackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxFeebackController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxFocusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxFocusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxInterfaceInfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxInterfaceInfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxLikearticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxLikearticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxPersonalPlanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxPersonalPlanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxQrCodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxQrCodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxUserExamprocessController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxUserExamprocessController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxUserinfoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/controller/wx/WxUserinfoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxCareerUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxCareerUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxCompanyUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxCompanyUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxEntrepreneurUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxEntrepreneurUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxIndustryUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxIndustryUserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxUserinfoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/dao/wx/WxUserinfoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCareerUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCareerUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCompanyUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxCompanyUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntranceExam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntranceExam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntrepreneur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntrepreneur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntrepreneurUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxEntrepreneurUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxFeeback.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxFeeback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxFocus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxFocus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIdeacareer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIdeacareer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIdeaindustry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIdeaindustry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIndustryUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxIndustryUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxInterfaceInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxInterfaceInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxLikearticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxLikearticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxMeetingInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxMeetingInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxOrderExam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxOrderExam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxQrCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxQrCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxUserExamprocess.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxUserExamprocess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxUserinfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/pojo/wx/WxUserinfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCareerUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCareerUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCollectionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCollectionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCompanyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCompanyService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCompanyUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxCompanyUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntranceExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntranceExamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntrepreneurService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntrepreneurService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntrepreneurUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxEntrepreneurUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxFeebackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxFeebackService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxFocusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxFocusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxIndustryUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxIndustryUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxInterfaceInfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxInterfaceInfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxLikearticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxLikearticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxOrderExamService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxOrderExamService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxPersonalPlanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxPersonalPlanService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxQrCodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxQrCodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxUserExamprocessService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxUserExamprocessService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxUserinfoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/WxUserinfoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCareerUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCareerUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCollectionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCollectionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCompanyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCompanyServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCompanyUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxCompanyUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntranceExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntranceExamServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxFeebackServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxFeebackServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxFocusServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxFocusServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxIndustryUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxIndustryUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxInterfaceInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxInterfaceInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxLikearticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxLikearticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxOrderExamServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxOrderExamServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxPersonalPlanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxPersonalPlanServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxQrCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxQrCodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxUserExamprocessServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxUserExamprocessServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxUserinfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/proflu/profluweb/service/wx/impl/WxUserinfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cn/proflu/profluweb/ProfluwebApplicationTests.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1098363568">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="41" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="4" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.41" value="2" />
+          <entry key="project.open.time.44" value="2" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="45" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bpmn" value="7" />
+          <entry key="class" value="15" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="983" />
+          <entry key="png" value="3" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="42" />
+          <entry key="yml" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="BPMN_EDITOR" value="7" />
+          <entry key="CLASS" value="15" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="983" />
+          <entry key="Properties" value="3" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="41" />
+          <entry key="YAML" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="dummy" value="9" />
+          <entry key="java" value="19091" />
+          <entry key="txt" value="407" />
+          <entry key="xml" value="99" />
+          <entry key="yml" value="231" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="19091" />
+          <entry key="PLAIN_TEXT" value="416" />
+          <entry key="XML" value="99" />
+          <entry key="YAML" value="231" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="profluweb" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>120.79.239.64</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bu94450@163.com" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/SysUserRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/SysUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/SysUserTokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/ShiroServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysCaptchaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysRoleMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysUserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/impl/SysUserTokenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/back/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/back/AbstractController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/back/SysRoleMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/pojo/back/SysCaptcha.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/pojo/back/SysUserToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/ProfluwebApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/VO/back/SysMenuShow.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/back/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/back/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/back/ShiroService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/exception/CodeHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/redis/KeyPrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/redis/RedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/redis/UserKey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/redis/BasePrefix.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxCompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/back/SysCaptchaController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/Swagger2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/oauth2/OAuth2Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/myEnum/InfoCodeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/MySpringMvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/WxUserinfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/oauth2/OAuth2Realm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxUserinfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxUserinfoMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxUserinfoController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxOrderExamMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/pojo/wx/WxOrderExam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/MabatisPlusGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/wx/WxOrderExamMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/WxOrderExamService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxOrderExamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxUserExamprocessController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-54" />
+    <option name="y" value="259" />
+    <option name="width" value="1386" />
+    <option name="height" value="756" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="profluweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proflu_back_end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proflu_back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proflu_back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proflu_back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proflu_back_end" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="profluweb" type="58d84e3e:PackageViewProjectNode" />
+              <item name="profluweb" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="58d84e3e:PackageViewProjectNode" />
+              <item name="profluweb" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.proflu.profluweb" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="profluweb" type="58d84e3e:PackageViewProjectNode" />
+              <item name="profluweb" type="616d4139:PackageViewModuleNode" />
+              <item name="cn.proflu.profluweb" type="1f31426a:PackageElementNode" />
+              <item name="common" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553002881722" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../profluweb" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\data\proflu_back_end\src\main\java\cn\proflu\profluweb\controller\back" />
+      <recent name="E:\data\proflu_back_end\src\main\resources\mappers\back" />
+      <recent name="E:\data\proflu_back_end\src\main\java\cn\proflu\profluweb\dao" />
+      <recent name="E:\data\proflu_back_end\src\main\java\cn\proflu\profluweb\service" />
+      <recent name="E:\data\proflu_back_end\src\main\java\cn\proflu\profluweb\service\back\impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.proflu.profluweb.VO.back" />
+      <recent name="cn.proflu.profluweb.controller.wx" />
+      <recent name="cn.proflu.profluweb.common.myEnum" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\data\proflu_back_end\src\main\resources\mappers\" />
+      <recent name="E:\data\proflu_back_end\src\main\resources\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProfluwebApplication">
+    <configuration name="MabatisPlusGenerator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.proflu.profluweb.common.utils.MabatisPlusGenerator" />
+      <module name="profluweb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.proflu.profluweb.common.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfluwebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="profluweb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.proflu.profluweb.ProfluwebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProfluwebApplication" />
+      <item itemvalue="Application.MabatisPlusGenerator" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ad94227-1541-43a4-98cf-df3e3d39c01f" name="Default Changelist" comment="" />
+      <created>1541729714655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541729714655</updated>
+      <workItem from="1541729719216" duration="23475000" />
+      <workItem from="1541770075150" duration="3751000" />
+      <workItem from="1541815915650" duration="22712000" />
+      <workItem from="1541857749158" duration="4879000" />
+      <workItem from="1541899570443" duration="27612000" />
+      <workItem from="1541985408797" duration="24038000" />
+      <workItem from="1542097629713" duration="15025000" />
+      <workItem from="1542121193522" duration="4374000" />
+      <workItem from="1542158924656" duration="7098000" />
+      <workItem from="1542166223409" duration="4706000" />
+      <workItem from="1542285450936" duration="3159000" />
+      <workItem from="1542374028915" duration="1673000" />
+      <workItem from="1542376317458" duration="2078000" />
+      <workItem from="1542378445029" duration="123000" />
+      <workItem from="1542378598822" duration="103000" />
+      <workItem from="1542378743948" duration="36000" />
+      <workItem from="1542423196106" duration="1290000" />
+      <workItem from="1542424532236" duration="12814000" />
+      <workItem from="1542504965721" duration="1183000" />
+      <workItem from="1542506305640" duration="15693000" />
+      <workItem from="1542631167439" duration="3229000" />
+      <workItem from="1542678635512" duration="733000" />
+      <workItem from="1542707001263" duration="7852000" />
+      <workItem from="1542764652831" duration="24250000" />
+      <workItem from="1542941446047" duration="817000" />
+      <workItem from="1542971524349" duration="5054000" />
+      <workItem from="1543035403026" duration="1928000" />
+      <workItem from="1543201255836" duration="5538000" />
+      <workItem from="1543626785374" duration="3476000" />
+      <workItem from="1544615005157" duration="1871000" />
+      <workItem from="1544753920555" duration="810000" />
+      <workItem from="1545121352001" duration="13644000" />
+      <workItem from="1545270967522" duration="1346000" />
+      <workItem from="1547615747188" duration="332000" />
+      <workItem from="1548590141597" duration="3178000" />
+      <workItem from="1548656681367" duration="13418000" />
+      <workItem from="1548762867310" duration="1924000" />
+      <workItem from="1550295609234" duration="855000" />
+      <workItem from="1550892077945" duration="1842000" />
+      <workItem from="1551064546515" duration="10342000" />
+      <workItem from="1551150571532" duration="8497000" />
+      <workItem from="1551228096248" duration="749000" />
+      <workItem from="1552187370996" duration="414000" />
+      <workItem from="1552994489205" duration="4178000" />
+      <workItem from="1553046592242" duration="85000" />
+    </task>
+    <task id="LOCAL-00001" summary="优化项目并添加了登陆和更新用户信息的功能">
+      <created>1541853001269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541853001269</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现了从布本接口获取数据的所有接口，并添加了保存用户收藏和点赞的功能">
+      <created>1541939202880</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541939202880</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化了用户取消点赞删除数据库数据的功能">
+      <created>1541985912202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1541985912202</updated>
+    </task>
+    <task id="LOCAL-00004" summary="增加了获取二维码的功能">
+      <created>1541988452243</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541988452243</updated>
+    </task>
+    <task id="LOCAL-00005" summary="优化点赞和收藏">
+      <created>1542025815568</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542025815568</updated>
+    </task>
+    <task id="LOCAL-00006" summary="添加保存个人培养计划单和模糊查询公司">
+      <created>1542073527248</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542073527248</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加查询公司和企业家，保存意见反馈和关注、取消关注话题的功能">
+      <created>1542100598249</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542100598250</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加用户关注行业，企业家，职业和公司的功能">
+      <created>1542122043358</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542122043358</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加拦截器，过滤请求，优化项目">
+      <created>1542125449071</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542125449071</updated>
+    </task>
+    <task id="LOCAL-00010" summary="删除个人计划相关，方法添加抛出异常">
+      <created>1542165451759</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542165451759</updated>
+    </task>
+    <task id="LOCAL-00011" summary="解决查询用户所有相关个人计划信息向前端传openid的bug">
+      <created>1542194698327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542194698327</updated>
+    </task>
+    <task id="LOCAL-00012" summary="完成考试流程相关接口">
+      <created>1542543757447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1542543757447</updated>
+    </task>
+    <task id="LOCAL-00013" summary="备份数据库">
+      <created>1542637143972</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542637143973</updated>
+    </task>
+    <task id="LOCAL-00014" summary="添加注释，增加swagger2配置">
+      <created>1542715687233</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542715687233</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加注释2">
+      <created>1543037247026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543037247026</updated>
+    </task>
+    <task id="LOCAL-00016" summary="后台管理系统环境搭建及实现权限登录">
+      <created>1545137941351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545137941351</updated>
+    </task>
+    <task id="LOCAL-00017" summary="删除后台相关代码">
+      <created>1552997641239</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552997641239</updated>
+    </task>
+    <task id="LOCAL-00018" summary="删除后台相关代码">
+      <created>1552997708741</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1552997708741</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="293671000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.19818456" />
+      <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" weight="0.3260212" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32980332" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.32980332" />
+      <window_info id="BPMN Editor" order="8" weight="0.32980332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5163934" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3295082" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.062295083" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.33114755" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.33934426" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
+      <window_info anchor="right" id="BPMNPalette" order="10" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="优化项目并添加了登陆和更新用户信息的功能" />
+    <MESSAGE value="实现了从布本接口获取数据的所有接口，并添加了保存用户收藏和点赞的功能" />
+    <MESSAGE value="优化了用户取消点赞删除数据库数据的功能" />
+    <MESSAGE value="增加了获取二维码的功能" />
+    <MESSAGE value="优化点赞和收藏" />
+    <MESSAGE value="添加保存个人培养计划单和模糊查询公司" />
+    <MESSAGE value="增加查询公司和企业家，保存意见反馈和关注、取消关注话题的功能" />
+    <MESSAGE value="添加用户关注行业，企业家，职业和公司的功能" />
+    <MESSAGE value="添加拦截器，过滤请求，优化项目" />
+    <MESSAGE value="删除个人计划相关，方法添加抛出异常" />
+    <MESSAGE value="解决查询用户所有相关个人计划信息向前端传openid的bug" />
+    <MESSAGE value="完成考试流程相关接口" />
+    <MESSAGE value="备份数据库" />
+    <MESSAGE value="添加注释，增加swagger2配置" />
+    <MESSAGE value="添加注释2" />
+    <MESSAGE value="后台管理系统环境搭建及实现权限登录" />
+    <MESSAGE value="删除后台相关代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除后台相关代码" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxFeebackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxLikearticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxPersonalPlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxQrCodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxUserinfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="114" column="48" selection-start-line="114" selection-start-column="48" selection-end-line="114" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxCareerUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxCollectionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxCompanyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxCompanyUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxEntranceExamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxEntrepreneurMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxEntrepreneurUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxFeebackMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxFocusMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxIdeacareerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxCollectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxCareerUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxCompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxCompanyUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxEntranceExamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxEntrepreneurUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxFeebackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxFocusServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxIdeacareerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxIdeaindustryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxIndustryUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxInterfaceInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxMeetingInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxLikearticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxPersonalPlanServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxQrCodeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxUserExamprocessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxUserinfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="64" column="39" lean-forward="true" selection-start-line="64" selection-start-column="39" selection-end-line="64" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" column="92" selection-start-line="19" selection-start-column="92" selection-end-line="19" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/Query.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/myEnum/ErrorCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxMeetingInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="59" column="67" selection-start-line="59" selection-start-column="67" selection-end-line="59" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxMeetingInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/dao/wx/WxOrderExamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/pojo/wx/WxOrderExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/wx/WxOrderExamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/MabatisPlusGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="106" column="50" lean-forward="true" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/impl/WxOrderExamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/service/wx/WxOrderExamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/common/utils/UDateToLocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/ProfluwebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/proflu/profluweb/controller/wx/WxUserExamprocessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="212" column="38" lean-forward="true" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>profluweb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

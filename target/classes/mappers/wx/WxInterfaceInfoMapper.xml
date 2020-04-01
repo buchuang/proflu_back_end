@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.proflu.profluweb.dao.wx.WxInterfaceInfoMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="cn.proflu.profluweb.pojo.wx.WxInterfaceInfo">
+        <id column="IN_ID" property="inId" />
+        <result column="IN_CODE" property="inCode" />
+        <result column="IN_URL" property="inUrl" />
+        <result column="IN_ROLE" property="inRole" />
+        <result column="IN_PARMS" property="inParms" />
+        <result column="IN_ISUSE" property="inIsuse" />
+        <result column="IN_DESC" property="inDesc" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        IN_ID, IN_CODE, IN_URL, IN_ROLE, IN_PARMS, IN_ISUSE, IN_DESC
+    </sql>
+
+</mapper>
